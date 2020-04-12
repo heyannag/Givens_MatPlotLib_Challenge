@@ -2,8 +2,6 @@
 
 ## Bar Charts
 
-* Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
-
 * Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the number of data points for each treatment regimen.
 
   * **NOTE:** These plots should look identical.
@@ -32,40 +30,47 @@ Lower quartile: 32.38
 Upper quartile: 40.16
 Median: 38.12 
 Potential outliers for Capomulin are any values below 20.71 and above 51.83.
----------------------------
+
 Ramicane data:
 IQR: 9.1
 Lower quartile: 31.56
 Upper quartile: 40.66
 Median: 36.56 
 Potential outliers for Ramicane are any values below 17.91 and above 54.31.
----------------------------
+
 Infubinol data:
 IQR: 11.48
 Lower quartile: 54.05
 Upper quartile: 65.53
 Median: 60.16 
 Potential outliers for Infubinol are any values below 36.83 and above 82.75.
----------------------------
+
 Ceftamin data:
 IQR: 15.58
 Lower quartile: 48.72
 Upper quartile: 64.3
 Median: 59.85 
 Potential outliers for Ceftamin are any values below 25.35 and above 87.67.
---------
+
+## Box and Whisker Plot
 
 * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
 ![Box_and_Whisker_Plot](Box_and_Whisker_Plot.png)  
 
+## Line Plot 
+
 * Generate a line plot of time point versus tumor volume for a single mouse treated with Capomulin.
 
 ![Line_Chart](Line_Chart.png) 
 
+## Scatter Plot 
+
 * Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
 
 ![Scatter_Plot](Scatter_Plot.png) 
+
+## Linear Regression 
 
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 
